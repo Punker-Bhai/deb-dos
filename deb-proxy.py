@@ -61,7 +61,7 @@ def buildblock(size):
 
 def usage():
     print '---------------------------------------------------'
-    print 'USAGE: python proxy.py <url>'
+    print 'USAGE: python deb-proxy.py <url>'
     print '---------------------------------------------------'
 
 def httpcall(url):
