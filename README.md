@@ -12,16 +12,16 @@ Mainly solved two problems
 
 * What if there is no broiler? What should I do if the IP is blocked? So using a proxy server, I couldn't block it.
 
-## File description
+## File description [READ 1ST]
 
 ```
-├── ddos.py single IP attack, often used in intranet
+├── dos.py single IP attack, often used in intranet
 ├── list.txt generates intermediate file of proxy server
-├── proxy-ddos.py
+├── deb-proxy.py
 ├── proxy.py uses proxy server attacks, often used in external networks
 ├── README.md
-├── result.txt proxy server list
-└── test-pro.sh linux test script
+├── event.txt proxy server list
+└── tests.sh linux test script
 ```
 
 ## Instructions
