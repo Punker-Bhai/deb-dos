@@ -60,7 +60,7 @@ def buildblock(size):
     return(out_str)
 
 def usage():
-    print 'USAGE: python deb-proxy.py <url>'
+    print ("USAGE: python deb-proxy.py <url>")
 
 def httpcall(url):
     useragent_list()
@@ -109,7 +109,7 @@ else:
         usage()
         sys.exit()
     else:
-        print "-- Attack Started --"
+        print ("-- Attack Started --")
         url = sys.argv[1]
         if url.count("/")==2:
             url = url + "/"
