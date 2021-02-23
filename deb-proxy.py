@@ -92,7 +92,7 @@ def httpcall(url):
         urllib2.install_opener(opener)
         try:
             urllib2.urlopen(req)
-        except Exception,e:
+        except Exception :
             continue
 
 #http caller thread
