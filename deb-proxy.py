@@ -60,9 +60,7 @@ def buildblock(size):
     return(out_str)
 
 def usage():
-    print '---------------------------------------------------'
     print 'USAGE: python deb-proxy.py <url>'
-    print '---------------------------------------------------'
 
 def httpcall(url):
     useragent_list()
