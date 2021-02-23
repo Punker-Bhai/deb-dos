@@ -34,9 +34,7 @@ For proxy-py: `python deb-proxy.py http://www.xxx.com`, the attack will not stop
 
 Want to stop the attack:
 
-'''
 kill `pgrep python`
-'''
 
 The proxy server needs to be updated, just modify the i loop size in the proxy.py file findIP() directly. Also be aware that the agency website will be blocked at any time
 
