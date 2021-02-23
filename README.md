@@ -4,6 +4,7 @@
 
 # DEB-DOS
 *****Under Maintenance*****
+
 *****As a backup I have added a new file on it named `hping3.sh`*****
 * Having nothing to do, I briefly studied the following dos attacks. Everyone knows the principle, and how to implement it is the problem. Two scripts were made to weaken the access intensity, and they were used for internal network attacks and external network attacks. Generally, a single server or a relatively small number of servers can deny service by launching an attack with only one host, and the effect of the intranet is more obvious.
 
