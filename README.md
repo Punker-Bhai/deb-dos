@@ -26,9 +26,9 @@ Mainly solved two problems
 
 ## Instructions
 
-For ddos.py: `python ddos.py http://www.xxx.com/ [safe]`, safe is optional, after adding it will ensure that the attack will stop after the server hangs
+For ddos.py: `python dos.py http://www.xxx.com/ [safe]`, safe is optional, after adding it will ensure that the attack will stop after the server hangs
 
-For proxy-py: `python proxy-ddos.py http://www.xxx.com`, the attack will not stop
+For proxy-py: `python deb-proxy.py http://www.xxx.com`, the attack will not stop
 
 Want to stop the attack:
 
